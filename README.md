@@ -1,17 +1,17 @@
-# ⚡ 3kV DC Traction Substation & 3MW BESS Digital Twin
+#  3kV DC Traction Substation & 3MW BESS Digital Twin
 
 An advanced PSCAD/EMTDC digital twin of a 3kV DC railway traction substation, featuring an integrated 3MW Battery Energy Storage System (BESS) for dynamic peak shaving, voltage support, and fault recovery.
 
-## 🎯 Project Overview
+##  Project Overview
 This model simulates the severe electromechanical transients of heavy-rail traction networks. It moves beyond standard resistor loads by implementing a **Constant Power Load (CPL)** model to demonstrate "Negative Incremental Impedance" and its effect on weak grids. 
 
-## ⚙️ Key Technical Features
+## Key Technical Features
 * **Grid Physics:** 132kV AC Grid feeding a 12-Pulse Rectifier.
 * **BESS Control:** Autonomous charge/discharge state machine with PI cascaded control (Voltage/Current loops).
 * **Standards Compliance:** Engineered to meet **EN 50163** (U_min1 > 2.0kV) and OEM HSCB $di/dt$ limits.
 * **Custom Solver Logic:** Features custom Fortran scripting interfacing directly with the EMTDC backend for [insert specific function, e.g., custom anti-windup/state-machine logic].
 
-## 🚀 How to Run the Simulation
+##  How to Run the Simulation
 **Prerequisites:** * PSCAD v5.0 (or newer)
 * Intel Fortran Compiler (or GFortran, depending on your setup)
 
